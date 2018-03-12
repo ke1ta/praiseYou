@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "praise you!",
+    "description": "I'd developed this extension to praise you when you finish TODO. | TODOを終えた時に、僕があなたを褒める為に作りました。 ",
+    "version": "1.0",
+    "background": { 
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": { 
+        "name": "Done? Let's push!" 
+    },
+    "options_ui": {
+        "page": "options.html",
+        "chrome_style": true
+    },
+    "permissions": [ 
+        "storage"
+    ]
+}
